@@ -1,5 +1,5 @@
 {% set name = "fits2image" %}
-{% set version = "0.4.10" %}
+{% set version = "0.4.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fits2image-{{ version }}.tar.gz
-  sha256: 6b940ff4ac9a0f381e8a25cb8440723bfc85578f2671c50310d02e482eca06a1
+  sha256: 9ac63a3e01d17a36091e3dff394dd3dfc03acfba4fb69e93b340d958425e5450
 
 build:
   noarch: python
